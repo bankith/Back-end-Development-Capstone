@@ -11,4 +11,6 @@ urlpatterns = [
     path("", views.concerts, name="concerts"),
     path("concert-detail/<int:id>", views.concert_detail, name="concert_detail"),
     path("concert_attendee/", views.concert_attendee, name="concert_attendee"),
+    path("songs/", views.songs, name="songs"),
+    path("photos/", views.photos, name="photos"),
 ]
